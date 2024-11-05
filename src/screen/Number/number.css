@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.text h1{
+    font-family: 'Poppins', sans-serif;
+}
+.text p{
+    font-family: 'Poppins', sans-serif;
+}
+.phone{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.phone-no{
+    display: flex;
+    gap: 8px;
+}
+.phone-no select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height:48px ;
+    width: 91px;
+    border-radius: 8px;
+    border: 1px solid rgba(235, 235, 235, 1);
+
+}
+.phone-no img{
+    width: 23px;
+    height: 16px;
+}
+.phone-no input{
+    padding-left: 8px;
+    height: 48px;
+    width: 521px;
+    border-radius: 8px;
+    border: 1px solid rgba(235, 235, 235, 1);
+}
+
+@media (max-width:450px){
+    .phone-no input{
+    width: 246px;
+    }
+}
