@@ -6,12 +6,12 @@ const Steps=()=>{
     let {pathname}=useLocation();
     return(
 <div className="steps">
-    <div className={`step ${pathname==="/" || pathname==="/phoneNumber" || pathname==="/verfication" ? "active" : ""}`}></div>
-    <div className={`step ${ pathname==="/phoneNumber"  ? "half" : pathname==="/verfication" ? "active" : ""}`}>
+    <div className={`step ${pathname==="/" || pathname==="/phoneNumber" || pathname==="/verfication" || pathname==="/information" ? "active" : ""}`}></div>
+    <div className={`step ${ pathname==="/phoneNumber"  ? "half" : pathname==="/verfication" || pathname==="/information" ? "active" : ""}`}>
       
     </div>
     
-    <div className="step"></div>
+    <div className={`step ${pathname==="/information" ? "active" : ""}`}></div>
 
 </div>
     )

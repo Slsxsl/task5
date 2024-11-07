@@ -32,29 +32,18 @@ p{
     line-height: 30px;
     color:  #FFFFFF;
     padding-top: 48px;
+    position: relative;
 
 }
-.waves{
-
-    width: 1225.79px;
-height: 245.17px;
-top: 676.05px;
-left: -139.56px;
-gap: 0px;
-border: 28.94px 0px 0px 0px;
-opacity: 0.2px;
-rotate: -3.46;
-border: 28.94px solid;
-
-border-image-source: linear-gradient(90deg, rgba(255, 255, 255, 0.16) -3.98%, rgba(153, 153, 153, 0.16) 104.76%);
-
-box-shadow: 0px 2.27px 5.22px 0px rgba(255, 255, 255, 0.25) inset;
-
-box-shadow: 0px -4.54px 5.28px 0px rgba(255, 255, 255, 0.25) inset;
-
-backdrop-filter: blur(1.1916731595993042px)
-
-
+.wave1{
+    position: absolute;
+    margin-top: 180px;
+    
+    
+}
+.wave2{
+ margin-top: 220px;
+    padding-right: 500px;
 }
 @media  (max-width:450px) {
     .card{

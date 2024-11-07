@@ -2,8 +2,8 @@
 
 .content{
  display: flex;
-    align-items: center;
-justify-content: space-between;
+ align-items: center;
+justify-content:center;
     gap: 58px;
 }
 
@@ -120,7 +120,7 @@ border: none;
     flex-direction: column;
 }
 .cardd{
-    width: 100%;
+    width: 345px;
     height: 90px;
     display: flex;
     align-items: center;
