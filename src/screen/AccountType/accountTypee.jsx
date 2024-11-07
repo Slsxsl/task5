@@ -2,7 +2,7 @@ import React ,{useState} from "react";
 import Card from "../../component/card/card";
 import Container from "../../component/container/contianer";
 import Steps from "../../component/steps/steps";
-import "./AccountType.css";
+import "./accountType.css";
 import client from "../../assets/client.png";
 import free from "../../assets/user.png";
 import { Link} from "react-router-dom"
