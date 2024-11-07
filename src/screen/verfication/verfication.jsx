@@ -49,11 +49,17 @@ const startMinutes=1;
         <Card />
         <div className="body">
           <Steps />
-          <div className="text">
+          <div className="text1">
             <h1>Enter your phone number</h1>
             <p>
               Enter your phone number to verify your identity and the validity
               of your number to safely activate your account on the platform.
+            </p>
+          </div>
+          <div className="text2">
+            <h1>Verify phone number</h1>
+            <p>
+              Enter verification code sent to <br /> your phone number via WhatsApp
             </p>
           </div>
 
@@ -65,16 +71,14 @@ const startMinutes=1;
               separator={<span></span>}
               isInputNum={true}
               inputStyle={otp !== "" ? { 
-                width: "50px", 
-                height: "56px", 
+               
                 border: "1px solid #3C97AF", 
-                background: "rgb(249, 245, 236)", 
-                color: "#3C97AF" 
+                background: "#ECF6F9", 
+                color: "#3C97AF" ,
               } : { 
-                width: "50px", 
-                height: "56px", 
+                
                 border: "1px solid rgba(235, 235, 235, 1)", 
-                background: "transparent", 
+              
                 color: "#3C97AF" 
               }}/> </div>
 

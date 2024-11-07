@@ -22,8 +22,8 @@ return(
                 <Steps/>
                 <div className="text" >
                     <h1>Enter Your Information</h1>
-                    <p>Please enter your personal information to complete the registration 
-                        <br />process.</p>
+                    <p>Please enter your personal information to <br /> complete the registration 
+                       process.</p>
 
                 </div>
                 <div className="inputs">

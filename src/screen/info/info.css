@@ -1,9 +1,17 @@
+.enter{
+    position: relative;
+   margin-bottom: 30px;
+}
+
 .labels{
     font-size: 14px;
     font-weight: 400;
     color: black;
  display:"block";
  font-family: 'Poppins', sans-serif;
+position: absolute;
+top: -24px;
+
 }
 .inputs{
     display: flex;
@@ -11,8 +19,10 @@
     justify-content: center;
     align-items:flex-start;
     margin-top: 32px;
+  
 }
 input{
+
     opacity: 50%;
     font-family: 'Poppins', sans-serif;
     width: 600px;
@@ -36,4 +46,13 @@ input.acive{
 
 button.b1{
     margin-top: 215px;
+}
+
+@media (max-width:450px){
+    input{
+      
+        width: 310px;
+        
+       
+    }
 }
