@@ -1,0 +1,86 @@
+.recentproject *{
+ 
+    font-family: 'Poppins', sans-serif;
+}
+.recentproject{
+    width: 424px;
+   
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+
+}
+
+.recentproject .head{
+    display: flex;
+    justify-content: space-between;
+    
+
+
+
+}
+.recentproject .head h4{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.recentproject .head p{
+    padding: 0;
+    color: rgba(60, 151, 175, 1);
+    font-size: 14px;
+    font-weight: 500;
+}
+.recentproject .project{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* المسافة بين المشاريع */
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+
+.recentproject  .project-head{
+    width: 376px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: -15px; */
+}
+
+.project-head .text{
+    margin-left: -100px;
+    display: flex;
+    flex-direction: column;
+}
+.project-head .text p{
+    font-size: 12px;
+    padding: 0;
+    text-align: left;
+}
+.recentproject .project-card .line{
+    margin-top: 0px;
+    width: 376px;
+height: 1px;
+ background-color: rgba(242, 242, 242, 1);
+ margin-top: 22px;
+}
+
+.recentproject .project-card {
+    display: flex;
+justify-content: space-between;
+flex-direction: column;
+margin-top: 28px;
+}
+
+.recentproject .details p{
+color: rgba(153, 153, 153, 1);
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+padding: 0;
+margin-top: 12px;
+}

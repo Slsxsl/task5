@@ -50,7 +50,7 @@ return(
                     
 
                 </div>
-              <Link to="">
+              <Link to="/header">
               <button className={`b1 ${isValid ? "active" : ""}`} 
                                 disabled={!isValid }
 

@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.user-profile{
+    width: 320px;
+    height: 219px;
+    border-radius: 14px;
+    box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 8px;
+align-items: center;
+}
+.user-profile h3{
+    font-size: 16px;
+}
+button.edit{
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    color: white;
+    background: var(--Colors-Primary-500, rgba(60, 151, 175, 1));
+border-radius: 12px;
+border: none;
+}
+
+.pic img{
+    border: 3px solid var(--Color-Border-Neutral, rgba(191, 191, 191, 1));
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.rate{
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+}
+
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.edit-form input.change{
+    width: 70px;
+    
+  position: absolute;
+  bottom: 40px;
+  border: none;
+  font-size: 12px;
+  right: 40px;
+ 
+}
+.edit-form input{
+    width: 200px;
+    border: 1px solid black;
+    color: black;
+}
+.editing{
+    width: 200px;
+    background: var(--Colors-Primary-500, rgba(60, 151, 175, 1));
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+    
+.cancel{
+    width: 100px;
+    background: var(--Colors-Primary-500, rgba(60, 151, 175, 1));
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}

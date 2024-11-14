@@ -1,0 +1,12 @@
+.mainPage{
+    background: var(--colors-primary-25, #F7FDFD);
+
+}
+.MainBody{
+    display: flex;
+    gap: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}

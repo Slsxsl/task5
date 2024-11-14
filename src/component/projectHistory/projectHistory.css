@@ -1,0 +1,122 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.pHistory{
+    width:320px;
+    height:340px;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 16px;
+    box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+   
+}
+.pHistory .head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -16px;
+}
+.head .pics{
+    display: flex;
+gap: 20px;
+cursor: pointer;
+}
+.project-cards{
+    margin-top: 16px;
+    max-height: 250px;
+    overflow-y: hidden;
+    overflow-y: auto;
+  
+}
+
+.p-card .dot{
+  
+  
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:rgba(60, 151, 175, 1);
+}
+.p-card .line{
+    margin-top: -1px;
+    margin-top: 3px;
+    margin-left: 4px;
+    height: 98px;
+    width: 3px;
+    background-color: rgba(60, 151, 175, 1);
+    border-radius: 12px;
+ 
+}
+
+.p-card{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+h1.name{
+ color: rgba(10, 10, 10, 1);
+ font-weight: 500;
+ font-size: 16px;
+}
+p.date{
+color: rgba(153, 153, 153, 1);
+font-size: 12px;
+font-weight: 400;
+
+padding: 0;
+}
+p.description{
+    padding: 0;
+    font-size: 12px;
+font-weight: 400;
+    color: black;
+    line-height: 18px;
+}
+.p-details .edit input{
+   width: 210px;
+   height: 30px;
+   border: 1px solid black;
+   color: black;
+}
+.p-details .edit textarea{
+    width: 230px;
+    border: 1px solid black;
+}
+.edit-buttons button{
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    background-color:  rgba(60, 151, 175, 1);
+}
+
+
+.add-project-form {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .add-project-form input,
+  .add-project-form textarea {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 8px;
+  }
+  
+  .add-project-form button {
+    padding: 10px;
+    background-color:  rgba(60, 151, 175, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 8px;
+  }
+  
+ 
