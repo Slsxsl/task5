@@ -8,7 +8,8 @@ import Phistory from "../../component/projectHistory/projectHistory"
 import CreatProject from "../../component/creatProject/creatProject";
 import RecentProject from "../../component/recentProject/recentProject";
 import Freelancers from "../../component/freelancerList/freelancerList";
-const MainPage = () => {
+import Posts from "../../component/posts/post"
+const MainPage = () => {  
   return (
     <div className="mainPage">
             <Header/>
@@ -18,10 +19,12 @@ const MainPage = () => {
         <Userprofile/>
       <About/>
       <Phistory/>
+      
         </div>
 
         <div className="mid">
           <CreatProject/>
+          <Posts/>
 
         </div>
         <div className="right">

@@ -1,0 +1,143 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.posts{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+ .post{
+    margin-bottom: 24px;
+    width: 616px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+.post .post-head{
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+}
+.post-head .profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(226, 218, 218);
+}
+.post-head .text{
+    margin-left: -310px;
+    display: flex;
+    flex-direction: column;
+}
+.post-head .status {
+    background: var(--Colors-Success-100, rgba(221, 248, 231, 1));
+width: 92px;
+height: 35px;
+border-radius: 18px;
+color: rgba(77, 178, 81, 1);
+font-size: 12px;
+font-weight: 600;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.post-head .text h5{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.post-head .text p{
+    font-size: 10px;
+    color: rgba(128, 128, 128, 1);
+    font-weight: 400;
+    line-height: 15px;
+    font-family: sans-serif;
+}
+.post-body{
+margin-top: 20px;
+}
+.post-body h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0;
+}
+.post-body p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(153, 153, 153, 1);
+    line-height: 21px;
+    font-weight: 400;
+    padding: 0;
+}
+.post-body span{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 600;
+    color: rgba(60, 151, 175, 1);
+    cursor: pointer;
+}
+.post-body img{
+    width: 100%;
+    margin-top: 8px;
+}
+.post-footer{
+    margin-top: 5px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 18px;
+    align-items: center;
+    text-align: center;
+}
+.post-footer .like{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.post-footer .comment{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.post-footer p{
+    padding: 0;
+    color: black;
+    font-size: 14px;
+}
+.more-details{
+    margin-top: 10px;
+}
+
+
+.post-body .more-details h5{
+  margin-top: 5px;
+}
+.post-body .more-details p{
+    margin-top: -1px;
+}
+.comment-input {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.comment-input input{
+    width: 480px;
+    color: black;
+}
+
+.comment-input button{
+    font-size: 13px;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    background: var(--Colors-Primary-500, rgba(60, 151, 175, 1));
+color: white;
+}
